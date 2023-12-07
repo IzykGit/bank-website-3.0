@@ -3,11 +3,6 @@ import styles from '../styles/components/navbar.module.css'
 export default function Navbar() {
     return (
         <div>
-            <div className={styles.topBar}>
-                <div>
-                    <p>Best Bank</p>
-                </div>
-            </div>
             <nav className={styles.navbar}>
                 <ul className={styles.pages}>
                     <li>Loans</li>

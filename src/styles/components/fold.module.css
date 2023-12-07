@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+
+.foldContainer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.79), rgba(0, 0, 0, 0.79)), url(C:\Users\lance\Desktop\Developement\Coding\bank-app-3\src\assets\sean-pollock-PhYq704ffdA-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    right: 0;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.introductionContainer {
+    width: 50%;
+    color: white;
+    font-family: 'Koulen', sans-serif;
+    background-color: transparent;
+    position: relative;
+    left: 20%;
+    bottom: 10%;
+}
+
+.pageHead {
+    font-size: 64px;
+    background-color: transparent;
+}
+
+.introDescription {
+    font-size: 24px;
+    margin: 20px 0px 20px 0px;
+    background-color: transparent;
+}
+
+.foldButton {
+    padding: 15px 50px 15px 50px;
+    font-size: 32px;
+    background-color: #47769E;
+    font-family: 'Koulen', sans-serif;
+    color: white;
+    border-radius: 15px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.foldButton:hover {
+    background-color: rgb(158, 131, 71);
+}
+
