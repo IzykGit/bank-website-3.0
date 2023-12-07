@@ -18,6 +18,12 @@
 
 .pages > li {
     margin-right: 40px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.pages > li:hover {
+    color: #47769E;
 }
 
 .accountType {
@@ -28,5 +34,11 @@
 
 .accountType > li {
     margin-right: 40px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.accountType > li:hover {
+    color: #47769E;
 }
 

@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
 
 
 .foldContainer {
     background-image: linear-gradient(rgba(0, 0, 0, 0.79), rgba(0, 0, 0, 0.79)), url(C:\Users\lance\Desktop\Developement\Coding\bank-app-3\src\assets\sean-pollock-PhYq704ffdA-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 95vh;
     right: 0;
     display: flex;
     align-items: center;
@@ -15,7 +16,6 @@
 .introductionContainer {
     width: 50%;
     color: white;
-    font-family: 'Koulen', sans-serif;
     background-color: transparent;
     position: relative;
     left: 20%;
@@ -25,12 +25,14 @@
 .pageHead {
     font-size: 64px;
     background-color: transparent;
+    font-family: 'Koulen', sans-serif;
 }
 
 .introDescription {
     font-size: 24px;
     margin: 20px 0px 20px 0px;
     background-color: transparent;
+    font-family: 'Hind Siliguri', sans-serif;
 }
 
 .foldButton {
@@ -40,11 +42,12 @@
     font-family: 'Koulen', sans-serif;
     color: white;
     border-radius: 15px;
-    transition: 0.5s;
+    transition: 0.4s;
     cursor: pointer;
 }
 
 .foldButton:hover {
     background-color: rgb(158, 131, 71);
+    padding: 15px 80px 15px 80px;
 }
 

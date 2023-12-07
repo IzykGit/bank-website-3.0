@@ -3,7 +3,7 @@ import styles from '../styles/components/navbar.module.css'
 export default function Navbar() {
     return (
         <div>
-            <nav className={styles.navbar}>
+            <nav data-aos="fade-in" className={styles.navbar}>
                 <ul className={styles.pages}>
                     <li>Loans</li>
                     <li>Home Loans</li>
