@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+
 .navAndFold {
     position: absolute;
     width: 93%;
@@ -6,11 +9,94 @@
 
 .infoCardsContainer {
     margin-top: 95vh;
-    height: 800px;
+    height: 900px;
     width: 100%;
     background-color: #1A1A1A;
     position: relative;
-    z-index: 2;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    align-items: center;
 }
+
+.infoCard {
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+    background-color: black;
+    border-radius: 65px;
+    position: relative;
+    margin: 0px 15px 0px 15px;
+}
+
+.infoCard > img {
+    opacity: 19%;
+    position: relative;
+    z-index: 1;
+}
+
+.cardText {
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+    z-index: 2;
+}
+
+.cardText > p {
+    background-color: transparent;
+    margin: 20px 0px 20px 0px;
+}
+
+.cardText > p:nth-child(1) {
+    font-family: 'Koulen', sans-serif;
+    font-size: 30px;
+}
+
+.cardText > p:nth-child(2) {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 20px;
+}
+
+
+.cardText > button {
+    color: white;
+    font-size: 24px;
+    padding: 15px 30px 15px 30px;
+    background-color: #47769E;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.cardText > button:hover {
+    padding: 15px 50px 15px 50px;
+    background-color: rgb(158, 131, 71);;
+}
+
+
+.mainCardOptionContainer, .mainCardOptionContainer p, .secondaryCardOptionContainer, .cardOption {
+    background-color: white;
+}
+
+.mainCardOptionContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.secondaryCardOptionContainer {
+    width: 80%;
+}
+
+
+.secondaryCardOptionContainer > p {
+    font-family: 'Koulen', sans-serif;
+    font-size: 64px;
+    padding: 150px 0px 50px 0px;
+}
+
+
+
+
