@@ -2,7 +2,7 @@
 
 
 .topBar {
-    background-color: #1A1A1A;
+    background-color: #292929;
     height: 82px;
     font-family: 'Koulen', sans-serif;
     width: 100%;
@@ -15,14 +15,14 @@
     display: flex;
     align-items: center;
     position: relative;
-    width: 93%;
+    width: 95%;
     height: 100%;
-    background-color: #1A1A1A;
+    background-color: #292929;
     padding: 0;
 }
 
 .topBar > div > p {
-    background-color: #1A1A1A;
+    background-color: #292929;
     color: white;
     font-size: 40px;
 }

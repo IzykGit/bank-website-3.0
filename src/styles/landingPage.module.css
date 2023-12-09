@@ -3,19 +3,34 @@
 
 .navAndFold {
     position: absolute;
-    width: 93%;
+    width: 95%;
     right: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .infoCardsContainer {
     margin-top: 95vh;
     height: 900px;
     width: 100%;
-    background-color: #1A1A1A;
+    background-color: #292929;
     position: relative;
     display: flex;
     justify-content: center;
     grid-template-columns: auto auto auto;
+    gap: 30px;
     align-items: center;
 }
 
@@ -24,7 +39,6 @@
     height: 600px;
     overflow: hidden;
     background-color: black;
-    border-radius: 65px;
     position: relative;
     margin: 0px 15px 0px 15px;
 }
@@ -57,11 +71,12 @@
 
 .cardText > p:nth-child(2) {
     font-family: 'Hind Siliguri', sans-serif;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 
 .cardText > button {
+    font-family: 'Koulen', sans-serif;
     color: white;
     font-size: 24px;
     padding: 15px 30px 15px 30px;
@@ -77,26 +92,105 @@
 }
 
 
-.mainCardOptionContainer, .mainCardOptionContainer p, .secondaryCardOptionContainer, .cardOption {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cardSectionContainer, .cardSectionContainer p, .cardSectionContainer, .cardOption {
     background-color: white;
 }
 
-.mainCardOptionContainer {
+.cardSectionContainer {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 250px 0px 250px 0px;
 }
-
-.secondaryCardOptionContainer {
-    width: 80%;
-}
-
 
 .secondaryCardOptionContainer > p {
     font-family: 'Koulen', sans-serif;
     font-size: 64px;
-    padding: 150px 0px 50px 0px;
+    margin: 0px 0px 100px 0px;
+}
+
+.secondaryCardOptionContainer {
+    background-color: white;
+    text-align: left;
+    width: 75%;
+}
+
+.cardOptions {
+    display: flex;
+    background-color: white;
+}
+
+.cardOption {
+    width: 90%;
+    margin-bottom: 100px;
+    float: left;
+}
+
+.cardOption :nth-child(1) {
+    font-family: 'Koulen', sans-serif;
+    font-size: 40px;
+}
+
+.cardOption :nth-child(2) {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 24px;
+    margin: 15px 0px 15px 0px;
+}
+
+.cardOption > button {
+    font-family: 'Koulen', sans-serif;
+    color: white;
+    font-size: 24px;
+    padding: 15px 30px 15px 30px;
+    background-color: #47769E;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.cardOption > button:hover {
+    padding: 15px 50px 15px 50px;
+    background-color: rgb(158, 131, 71);;
+}
+
+.cardOptionsImage {
+    background-color: white;
+}
+
+.cardOptionsImage > img {
+    border-radius: 65px;
+    box-shadow: 0px 0px 50px 0px black;
 }
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+.stayingSecureContainer {
+    height: 1200px;
+}
