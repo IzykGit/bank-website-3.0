@@ -50,6 +50,7 @@
 @media screen and (max-width: 1400px) {
     .mainContainer {
         visibility: hidden;
+        height: 0;
     }
 }
 
