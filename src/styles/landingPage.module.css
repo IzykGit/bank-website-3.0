@@ -106,6 +106,26 @@
 
 
 
+.footerContainer {
+    height: 1000px;
+    background-color: #292929;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .cardSectionContainer, .cardSectionContainer p, .cardSectionContainer, .cardOption {
     background-color: white;
@@ -175,7 +195,7 @@
 
 .cardOptionsImage > img {
     border-radius: 65px;
-    box-shadow: 0px 0px 50px 0px black;
+    box-shadow: 0px 0px 60px 0px rgb(94, 94, 94);
 }
 
 
@@ -191,6 +211,60 @@
 
 
 
-.stayingSecureContainer {
+.stayingSecureSection {
     height: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0px 100px 0px;
+}
+
+.stayingSecureContainer p {
+    background-color: transparent;
+}
+
+.stayingSecureContainer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.79), rgba(0, 0, 0, 0.79)), url(C:\Users\lance\Desktop\Developement\Coding\bank-app-3\src\assets\stayingSecure.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 80%;
+    border-radius: 65px;
+    box-shadow: 0px 0px 60px 0px rgb(43, 43, 43);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.stayingSecureContainer :nth-child(1) {
+    font-family: 'Koulen', sans-serif;
+    font-size: 60px;
+    width: 70%;
+}
+
+.stayingSecureContainer :nth-child(2) {
+    font-size: 32px;
+    width: 70%;
+    margin: 25px 0px 25px 0px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.stayingSecureContainer > button {
+    font-family: 'Koulen', sans-serif;
+    color: white;
+    font-size: 32px;
+    padding: 15px 30px 15px 30px;
+    background-color: #47769E;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.stayingSecureContainer > button:hover {
+    padding: 15px 60px 15px 60px;
+    background-color: rgb(158, 131, 71);;
 }

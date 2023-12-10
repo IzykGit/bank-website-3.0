@@ -20,6 +20,12 @@ export default function LandingPage() {
                 <Navbar />
                 <Fold headText={headText} introDescription={introDescription} buttonText={buttonText}/>
             </div>
+
+
+
+
+
+
             <div className={styles.infoCardsContainer}>
                 <div data-aos="fade-up"  data-aos-delay={150}  className={styles.infoCard}>
                         <div className={styles.cardText}>
@@ -49,11 +55,16 @@ export default function LandingPage() {
                     <img alt="phone with money symbol" src={phoneMoney} />
                 </div>
             </div>
+
+
+
+
+
+
+
             <div className={styles.cardSectionContainer}>
                 <div className={styles.secondaryCardOptionContainer}>
                 <p data-aos="fade-down"><span style={{color: "#47769E", backgroundColor: "white"}}>Explore</span> our Most Popular card options!</p>
-
-
                 
                     <div className={styles.cardOptions}>
                         <div style={{backgroundColor: 'white'}}>
@@ -82,14 +93,39 @@ export default function LandingPage() {
                     </div>
 
                 </div>
-
-
-
-
             </div>
-            <div className={styles.stayingSecureContainer}>
 
+
+
+
+
+
+
+
+
+            <div className={styles.stayingSecureSection}>
+                <div data-aos="fade-up" className={styles.stayingSecureContainer}>
+                    <p>Your Security, Our <span style={{color: "#47769E", backgroundColor: "transparent"}}>Priority</span>: Safeguarding Your Financial Well-being</p>
+                    <p>At Best Bank, we understand that security is paramount when it comes to your financial well-being.
+                    Rest assured, we employ state-of-the-art security measures to protect your sensitive information and provide you with peace of mind.</p>
+                    <button>Learn More About Staying</button>
+                </div>
             </div>
+
+            <div className={styles.footerContainer}>
+                <div className={styles.footerSection1}>
+
+                </div>
+                <div className={styles.footerSection2}>
+
+                </div>
+            </div>
+
+
+
+
+
+
         </div>
     )
 }
