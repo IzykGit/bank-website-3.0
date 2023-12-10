@@ -42,3 +42,14 @@
     color: #47769E;
 }
 
+
+
+
+
+
+@media screen and (max-width: 1400px) {
+    .mainContainer {
+        visibility: hidden;
+    }
+}
+

@@ -6,6 +6,7 @@ import laptopGraph from 'C:/Users/lance/Desktop/Developement/Coding/bank-app-3/s
 import bankFront from 'C:/Users/lance/Desktop/Developement/Coding/bank-app-3/src/assets/bankFront.jpg'
 import phoneMoney from 'C:/Users/lance/Desktop/Developement/Coding/bank-app-3/src/assets/phoneMoney.jpg'
 import cardOnLaptop from 'C:/Users/lance/Desktop/Developement/Coding/bank-app-3/src/assets/cardOnLaptop.jpg'
+import SideNav from '../components/sideNav'
 
 export default function LandingPage() {
 
@@ -15,6 +16,9 @@ export default function LandingPage() {
 
     return (
         <div>
+            <div className={styles.sideNavContainer}>
+                <SideNav />
+            </div>
             <TopBar />
             <div className={styles.navAndFold}>
                 <Navbar />
@@ -112,12 +116,37 @@ export default function LandingPage() {
                 </div>
             </div>
 
+
+
+
+
+
             <div className={styles.footerContainer}>
-                <div className={styles.footerSection1}>
-
+                <div className={styles.footerCards}>
+                    <p style={{fontFamily: "'Koulen', sans-serif", fontSize: "30px"}}>Best Bank:</p>
+                    <p>123 Main Street, Cityville, State 12345</p>
+                    <p>Customer Service: <span style={{color: "#47769E", backgroundColor: "transparent"}}>1-800-123-4567</span></p>
+                    <p>Email: <span style={{color: "#47769E", backgroundColor: "transparent"}}>info@bestbank.com</span></p>
+                    <p>Fax: <span style={{color: "#47769E", backgroundColor: "transparent"}}>555-123-7890</span></p>
                 </div>
-                <div className={styles.footerSection2}>
-
+                <div className={styles.footerCards}>
+                    <p style={{fontFamily: "'Koulen', sans-serif", fontSize: "30px"}}>Connect with Us:</p>
+                    <p>Follow us on social media: </p>
+                    <p style={{color: "#47769E", backgroundColor: "transparent"}}>@BestBankOfficial</p>
+                    <p>Visit our website:</p>
+                    <p><span style={{color: "#47769E", backgroundColor: "transparent"}}>www.bestbank.com</span></p>
+                    <p></p>
+                    <p></p>
+                </div>
+                <div className={styles.footerCards}>
+                    <p style={{fontFamily: "'Koulen', sans-serif", fontSize: "30px"}}>Secure Banking, Your Peace of Mind:</p>
+                    <p>Best Bank is committed to ensuring the security of your financial information.
+                     Learn more about our security measures here.</p>
+                </div>
+                <div className={styles.footerCards}>
+                    <p style={{fontFamily: "'Koulen', sans-serif", fontSize: "30px"}}>About Best Bank:</p>
+                    <p>Best Bank is a fictional bank created for illustrative purposes.
+                    Any resemblance to real entities is purely coincidental.</p>
                 </div>
             </div>
 

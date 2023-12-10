@@ -1,0 +1,22 @@
+.sideNav {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Koulen', sans-serif;
+    color: white;
+    background-color: #292929;
+    overflow: hidden;
+    width: 0;
+}
+
+.sideNav li{
+    list-style: none;
+    background-color: #292929;
+}
+
+.sideNav ul {
+    background-color: #292929;
+}
+
+.sideNav > ul > li {
+    margin-top: 15px;
+}

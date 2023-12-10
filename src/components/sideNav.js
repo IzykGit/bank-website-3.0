@@ -1,13 +1,10 @@
-import styles from '../styles/components/navbar.module.css'
+import styles from '../styles/components/sideNav.module.css'
 
-export default function Navbar() {
-
-
-
-    return (
-        <div className={styles.mainContainer}>
-            <nav data-aos="fade-in" className={styles.navbar}>
-                <ul className={styles.pages}>
+export default function SideNav() {
+    return(
+        <div style={{backgroundColor: "#292929"}}>
+            <nav className={styles.sideNav}>
+                <ul className={styles.sideNav_pages}>
                     <li>Loans</li>
                     <li>Home Loans</li>
                     <li>Cards</li>
@@ -15,7 +12,7 @@ export default function Navbar() {
                     <li>Sign Up</li>
                     <li>Log In</li>
                 </ul>
-                <ul className={styles.accountType}>
+                <ul className={styles.sideNav_accountType}>
                     <li>Personal</li>
                     <li>Business</li>
                     <li>Commercial</li>

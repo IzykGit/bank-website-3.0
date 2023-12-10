@@ -5,24 +5,52 @@
     background-color: #292929;
     height: 82px;
     font-family: 'Koulen', sans-serif;
-    width: 100%;
-    position: relative;
     display: flex;
     justify-content: right;
 }
 
-.topBar > div {
+.topBarSecond {
+    width: 95%;
+    background-color: #292929;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
     display: flex;
     align-items: center;
-    position: relative;
-    width: 95%;
     height: 100%;
     background-color: #292929;
     padding: 0;
 }
 
-.topBar > div > p {
+.title > p {
     background-color: #292929;
     color: white;
     font-size: 40px;
+}
+
+.hamburger {
+    background-color: #292929;
+    position: relative;
+    right: 50px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.hamburger > div {
+    background-color: white;
+    width: 50px;
+    height: 5px;
+    margin-top: 15px;
+}
+
+
+@media screen and (max-width: 1400px) {
+    .hamburger {
+        visibility: visible;
+    }
 }
