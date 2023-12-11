@@ -68,7 +68,7 @@ export default function LandingPage() {
 
             <div className={styles.cardSectionContainer}>
                 <div className={styles.secondaryCardOptionContainer}>
-                <p data-aos="fade-down"><span style={{color: "#47769E", backgroundColor: "white"}}>Explore</span> our Most Popular card options!</p>
+                <p className={styles.cardSectionTitle} data-aos="fade-down"><span style={{color: "#47769E", backgroundColor: "white"}}>Explore</span> our Most Popular card options!</p>
                 
                     <div className={styles.cardOptions}>
                         <div style={{backgroundColor: 'white'}}>
