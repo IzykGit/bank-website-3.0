@@ -66,4 +66,16 @@
     .hamburger {
         visibility: visible;
     }
+
+    .topBar {
+        justify-content: center;
+    }
+
+    .topBarSecond {
+        width: 85%;
+    }
+
+    .hamburger {
+        right: 0;
+    }
 }

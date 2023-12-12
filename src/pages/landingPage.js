@@ -21,7 +21,9 @@ export default function LandingPage() {
             </div>
             <TopBar />
             <div className={styles.navAndFold}>
-                <Navbar />
+                <div className={styles.navbar}>
+                    <Navbar />
+                </div>
                 <Fold headText={headText} introDescription={introDescription} buttonText={buttonText}/>
             </div>
 
@@ -95,7 +97,6 @@ export default function LandingPage() {
                             <img alt="visa card on laptop" src={cardOnLaptop}/>
                         </div>
                     </div>
-
                 </div>
             </div>
 
@@ -123,14 +124,14 @@ export default function LandingPage() {
 
             <div className={styles.footerContainer}>
                 <div className={styles.footerCards}>
-                    <p style={{fontFamily: "'Koulen', sans-serif", fontSize: "30px"}}>Best Bank:</p>
+                    <h6 className={styles.footerCardTitle}>Best Bank:</h6>
                     <p>123 Main Street, Cityville, State 12345</p>
                     <p>Customer Service: <span style={{color: "#47769E", backgroundColor: "transparent"}}>1-800-123-4567</span></p>
                     <p>Email: <span style={{color: "#47769E", backgroundColor: "transparent"}}>info@bestbank.com</span></p>
                     <p>Fax: <span style={{color: "#47769E", backgroundColor: "transparent"}}>555-123-7890</span></p>
                 </div>
                 <div className={styles.footerCards}>
-                    <p style={{fontFamily: "'Koulen', sans-serif", fontSize: "30px"}}>Connect with Us:</p>
+                    <h6 className={styles.footerCardTitle}>Connect with Us:</h6>
                     <p>Follow us on social media: </p>
                     <p style={{color: "#47769E", backgroundColor: "transparent"}}>@BestBankOfficial</p>
                     <p>Visit our website:</p>
@@ -139,12 +140,12 @@ export default function LandingPage() {
                     <p></p>
                 </div>
                 <div className={styles.footerCards}>
-                    <p style={{fontFamily: "'Koulen', sans-serif", fontSize: "30px"}}>Secure Banking, Your Peace of Mind:</p>
+                    <h6 className={styles.footerCardTitle}>Secure Banking, Your Peace of Mind:</h6>
                     <p>Best Bank is committed to ensuring the security of your financial information.
                      Learn more about our security measures here.</p>
                 </div>
                 <div className={styles.footerCards}>
-                    <p style={{fontFamily: "'Koulen', sans-serif", fontSize: "30px"}}>About Best Bank:</p>
+                    <h6 className={styles.footerCardTitle}>About Best Bank:</h6>
                     <p>Best Bank is a fictional bank created for illustrative purposes.
                     Any resemblance to real entities is purely coincidental.</p>
                 </div>

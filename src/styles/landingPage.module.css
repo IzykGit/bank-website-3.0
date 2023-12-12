@@ -11,6 +11,10 @@
     .navAndFold {
         width: 100%;
     }
+
+    .navbar {
+        display: none;
+    }
 }
 
 
@@ -48,6 +52,8 @@
     align-items: center;
 }
 
+
+
 .infoCard {
     width: 80%;
     height: 600px;
@@ -61,6 +67,7 @@
     opacity: 19%;
     position: relative;
     z-index: 1;
+    width: 100%;
 }
 
 .cardText {
@@ -98,6 +105,7 @@
     border-radius: 15px;
     cursor: pointer;
     transition: 0.4s;
+    border: none;
 }
 
 .cardText > button:hover {
@@ -110,6 +118,38 @@
         display: flex;
         flex-direction: column;
         height: 2000px
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .infoCardsContainer {
+        background-color: white;
+    }
+
+    .infoCard {
+        background-color: white;
+    }
+
+    .infoCard > img {
+        display: none;
+    }
+
+    .cardText {
+        color: black;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .infoCard {
+        width: 95%;
+    }
+
+    .cardText > p:nth-child(2) {
+        font-size: 18px;
+    }
+
+    .cardText > button {
+        font-size: 18px;
     }
 }
 
@@ -204,6 +244,7 @@
 @media screen and (max-width: 1600px) {
     .cardOptionsImage > img {
         display: none;
+        width: 0;
     }
 }
 
@@ -236,6 +277,48 @@
 
 
 }
+
+
+@media screen and (max-width: 450px) {
+    .cardSectionTitle {
+        font-size: 40px;
+    }
+
+    .cardOption :nth-child(1) {
+        font-family: 'Koulen', sans-serif;
+        font-size: 25px;
+    }
+
+    .cardOption :nth-child(2) {
+        font-family: 'Hind Siliguri', sans-serif;
+        font-size: 18px;
+        margin: 15px 0px 15px 0px;
+    }
+
+    .cardOption > button {
+        padding: 10px 25px 10px 25px;
+        font-size: 20px;
+    }
+
+
+    .cardOption > button:hover {
+        background-color: rgb(158, 131, 71);
+        padding: 10px 50px 10px 50px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -349,6 +432,31 @@
     }
 }
 
+@media screen and (max-width: 450px) {
+    .stayingSecureContainer :nth-child(1) {
+        font-family: 'Koulen', sans-serif;
+        font-size: 30px;
+        width: 90%;
+    }
+
+    .stayingSecureContainer :nth-child(2) {
+        font-size: 18px;
+        width: 90%;
+        margin: 25px 0px 25px 0px;
+        font-family: 'Hind Siliguri', sans-serif;
+    }
+
+    .stayingSecureContainer > button {
+        padding: 10px 25px 10px 25px;
+        font-size: 20px;
+    }
+
+    .stayingSecureContainer > button:hover {
+        background-color: rgb(158, 131, 71);
+        padding: 10px 50px 10px 50px;
+    }
+}
+
 
 
 
@@ -377,6 +485,13 @@
     height: 30%;
     background-color: #292929;
     color: #ffffff;
+}
+
+.footerCardTitle {
+    font-family: 'Koulen', sans-serif;
+    font-size: 30px;
+    background-color: transparent;
+    font-weight: normal;
 }
 
 
@@ -408,4 +523,16 @@
     .footerCards p {
         font-size: 20px;
     }
+}
+
+
+@media screen and (max-width: 550px) {
+    .footerCards {
+        width: 95%
+    }
+
+    .footerCardTitle {
+        font-size: 25px;
+    }
+
 }

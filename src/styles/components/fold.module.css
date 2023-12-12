@@ -83,3 +83,18 @@
         padding: 10px 50px 10px 50px;
     }
 }
+
+@media screen and (max-width: 400px) {
+
+    .pageHead {
+        font-size: 30px;
+    }
+
+    .introDescription {
+        font-size: 18px;
+    }
+
+    .foldButton:hover {
+        padding: 10px 30px 10px 30px;
+    }
+}
