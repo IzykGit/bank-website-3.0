@@ -16,7 +16,11 @@ export default function TopBar() {
         bar1.classList.toggle(styles.barTransformOne);
         bar2.classList.toggle(styles.barTransformTwo);
         bar3.classList.toggle(styles.barTransformThree);
-        console.log("Opening hamburger", hamburger.classList.contains(styles.hamburgerOpen));
+        console.log("Opening hamburger");
+
+
+        document.getElementById('sideNav').classList.toggle(styles.openedSideNav)
+        console.log(document.getElementById("sideNav").classList.contains("openedSideNav"))
       }
       
     
@@ -33,6 +37,21 @@ export default function TopBar() {
                     <div></div>
                 </div>
             </div>
+            <nav id='sideNav' className={styles.sideNav}>
+                <ul className={styles.sideNav_pages}>
+                    <li>Loans</li>
+                    <li>Home Loans</li>
+                    <li>Cards</li>
+                    <li>Credit Services</li>
+                    <li>Sign Up</li>
+                    <li>Log In</li>
+                </ul>
+                <ul className={styles.sideNav_accountType}>
+                    <li>Personal</li>
+                    <li>Business</li>
+                    <li>Commercial</li>
+                </ul>
+            </nav>
 
         </div>
     )

@@ -6,7 +6,6 @@ import laptopGraph from 'C:/Users/lance/Desktop/Developement/Coding/bank-app-3/s
 import bankFront from 'C:/Users/lance/Desktop/Developement/Coding/bank-app-3/src/assets/bankFront.jpg'
 import phoneMoney from 'C:/Users/lance/Desktop/Developement/Coding/bank-app-3/src/assets/phoneMoney.jpg'
 import cardOnLaptop from 'C:/Users/lance/Desktop/Developement/Coding/bank-app-3/src/assets/cardOnLaptop.jpg'
-import SideNav from '../components/sideNav'
 
 export default function LandingPage() {
 
@@ -16,9 +15,6 @@ export default function LandingPage() {
 
     return (
         <div>
-            <div className={styles.sideNavContainer}>
-                <SideNav />
-            </div>
             <TopBar />
             <div className={styles.navAndFold}>
                 <div className={styles.navbar}>

@@ -20,15 +20,7 @@
 
 
 
-.sideNavContainer {
-    display: flex;
-    justify-content: center;
-    width: 0;
-    height: 100%;
-    position: fixed;
-    z-index: 9;
-    background-color: #292929;
-}
+
 
 
 
@@ -139,7 +131,7 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .infoCard {
         width: 95%;
     }
