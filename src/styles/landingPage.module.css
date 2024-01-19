@@ -338,7 +338,7 @@
 }
 
 .stayingSecureContainer {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.79), rgba(0, 0, 0, 0.79)), url(C:\Users\lance\Desktop\Developement\Coding\bank-app-3\src\assets\stayingSecure.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.79), rgba(0, 0, 0, 0.79)), url(../assets/stayingSecure.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 70%;
