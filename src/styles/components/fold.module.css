@@ -3,7 +3,7 @@
 
 
 .foldContainer {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.79), rgba(0, 0, 0, 0.79)), url(C:\Users\lance\Desktop\Developement\Coding\bank-app-3\src\assets\sean-pollock-PhYq704ffdA-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.79), rgba(0, 0, 0, 0.79)), url(../../assets/skyScrapers.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 95vh;
