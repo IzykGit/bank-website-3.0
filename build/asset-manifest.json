@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4efb57d7.css",
+    "main.js": "/static/js/main.dc3a782d.js",
+    "static/media/stayingSecure.jpg": "/static/media/stayingSecure.82580b7e577ce3e54e17.jpg",
+    "static/media/sean-pollock-PhYq704ffdA-unsplash.jpg": "/static/media/sean-pollock-PhYq704ffdA-unsplash.87837059c319c6378f7a.jpg",
+    "static/media/bankFront.jpg": "/static/media/bankFront.6d5c59f0ea373cc7d3bb.jpg",
+    "static/media/laptopGraph.jpg": "/static/media/laptopGraph.2e4f43a69f98bcc246e8.jpg",
+    "static/media/cardOnLaptop.jpg": "/static/media/cardOnLaptop.7509ade8dee69d2ce791.jpg",
+    "static/media/phoneMoney.jpg": "/static/media/phoneMoney.557fa2e168c755209d94.jpg",
+    "index.html": "/index.html",
+    "main.4efb57d7.css.map": "/static/css/main.4efb57d7.css.map",
+    "main.dc3a782d.js.map": "/static/js/main.dc3a782d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4efb57d7.css",
+    "static/js/main.dc3a782d.js"
+  ]
+}
