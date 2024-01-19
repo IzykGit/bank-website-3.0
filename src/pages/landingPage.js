@@ -2,10 +2,10 @@ import styles from '../styles/landingPage.module.css'
 import Navbar from '../components/navbar'
 import Fold from '../components/fold'
 import TopBar from '../components/topBar'
-import laptopGraph from 'C:/Users/lance/Desktop/Developement/Coding/bank-app-3/src/assets/laptopGraph.jpg'
-import bankFront from 'C:/Users/lance/Desktop/Developement/Coding/bank-app-3/src/assets/bankFront.jpg'
-import phoneMoney from 'C:/Users/lance/Desktop/Developement/Coding/bank-app-3/src/assets/phoneMoney.jpg'
-import cardOnLaptop from 'C:/Users/lance/Desktop/Developement/Coding/bank-app-3/src/assets/cardOnLaptop.jpg'
+import laptopGraph from '../assets/laptopGraph.jpg'
+import bankFront from '../assets/bankFront.jpg'
+import phoneMoney from '../assets/phoneMoney.jpg'
+import cardOnLaptop from '../assets/cardOnLaptop.jpg'
 
 export default function LandingPage() {
 
